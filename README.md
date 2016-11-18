@@ -15,7 +15,9 @@ creates a blog frame with side menu
 ## Apple - iOS - SwiftStuff
 
 **AppleSwift Blog:** https://developer.apple.com/swift/blog/
+
 **NSHipster:**  http://nshipster.com
+
 **iosdevelopertips:** http://iosdevelopertips.com
 
 
