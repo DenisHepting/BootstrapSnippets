@@ -17,4 +17,6 @@
 ```
 
 **php:Echo** -> Gives PHP for simple-text echo back 
-
+```php
+<?php echo $section6_p ?>
+```
