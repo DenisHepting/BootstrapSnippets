@@ -1,7 +1,7 @@
 #Wordpress Snippets Sublime
 
 
-**wp:Img** -> Defines normal Image Wordpress
+**wp:Img** -> Defines normal image Wordpress
 
 ```php
 <?php if(!empty($yourVar_img)) : ?> 
@@ -9,7 +9,7 @@
 <?php endif; ?>
 ```
 
-**wp:CSSImg** -> Defines CSS-Background in WP-PhP
+**wp:CSSImg** -> Defines CSS-Background in WP-PHP, insert into DIV 
 ```php
 <?php if(!empty($myVar)) : ?>
         style="background-image: url('<?php echo $myVar['url']; ?>');">
