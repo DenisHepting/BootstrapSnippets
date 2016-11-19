@@ -1,4 +1,4 @@
-#Wordpress Snippets Sublime
+#Wordpress Snippets Sublime 3
 
 
 **wp:Img** -> Defines normal image Wordpress
