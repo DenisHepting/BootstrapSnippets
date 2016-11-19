@@ -10,7 +10,7 @@
     <img class="img-responsive" src="<?php echo $section6_img['url']; ?>" alt="<?php echo $section6_img['alt']; ?>">
 <?php endif; ?>
 
-<?php echo ?>
+<?php endif ?>
 
 ```
 
