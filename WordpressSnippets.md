@@ -11,12 +11,12 @@
 
 **wp:CSSImg** -> Defines CSS-Background in WP-PHP, insert into DIV 
 ```php
-<?php if(!empty($myVar)) : ?>
-        style="background-image: url('<?php echo $myVar['url']; ?>');">
+<?php if(!empty($yourVar)) : ?>
+        style="background-image: url('<?php echo $yourVar['url']; ?>');">
 <?php endif; ?>
 ```
 
 **php:Echo** -> Gives PHP for simple-text echo back 
 ```php
-<?php echo $section6_p ?>
+<?php echo $yourVar ?>
 ```
