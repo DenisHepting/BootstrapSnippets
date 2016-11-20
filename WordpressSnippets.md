@@ -20,3 +20,19 @@
 ```php
 <?php echo $yourVar ?>
 ```
+
+```swift
+struct Coordinates{
+var a = 10 
+var b = 20
+
+init(a: Int, b: Int){
+   self.a = a
+   self.b = b
+}
+
+
+}
+
+
+```
