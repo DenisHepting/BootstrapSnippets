@@ -14,16 +14,16 @@ creates a blog frame with side menu
 
 ## Apple - iOS - SwiftStuff
 
-**AppleSwift Blog:** https://developer.apple.com/swift/blog/
++ **AppleSwift Blog:** https://developer.apple.com/swift/blog/
 
-**NSHipster:**  http://nshipster.com
++ **NSHipster:**  http://nshipster.com
 
-**iosdevelopertips:** http://iosdevelopertips.com
+- **iosdevelopertips:** http://iosdevelopertips.com
 
 
 ## Backend made easy
-**realm.io:** https://realm.io/news/
-**firebase:** https://firebase.google.com
++ **realm.io:** https://realm.io/news
++ **firebase:** https://firebase.google.com
 
 ## Algorithms
 
