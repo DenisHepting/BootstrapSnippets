@@ -35,10 +35,5 @@ init(a: Int, b: Int){
 }
 ```
 
-**github:test
-
-
-
-
-
-Today ther is this and that
+**Oh thats Interessting my friend***
+**I just added that to my local files ***
