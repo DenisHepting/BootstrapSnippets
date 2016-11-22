@@ -102,3 +102,57 @@ class User{
 }
 
 ```
+
+
+Header-Search Animation
+```CSS
+ 
+#header-search {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	-webkit-transition-property: all;
+	transition-property: all;
+	transition-duration:.3s;
+	-webkit-transition-duration:.3s;
+	pointer-events: none;
+	left: 0;
+	z-index: 199;
+	top: -100%;
+	background: #000;
+}
+
+#header-search.open {
+	top: 0;
+	opacity: 1;
+	pointer-events: auto;
+	
+}
+
+
+.split-header #site-header .inside {
+	text-align: center !important;
+}
+
+.split-header .logo, .split-header .logo  {
+	margin: 0 auto !important;
+	float: none;
+	position: absolute;
+	width: 100%;
+}
+
+.inline-header .logo, .split-header .logo {
+	height: 90px;
+}
+
+.sticky .logo {
+	height: 60px !important;
+}
+
+.logo img {
+	transition-property: all;
+	-webkit-transition: 0.3s ease;
+		    transition: 0.3s ease;
+}
+```
