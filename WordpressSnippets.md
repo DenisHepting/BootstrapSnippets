@@ -156,3 +156,63 @@ Header-Search Animation
 		    transition: 0.3s ease;
 }
 ```
+
+Class inheritance and overriding class methods 
+
+```swift
+struct Grades{
+    var points: Int
+    var credits: Int
+    var letter: String
+    
+    init(points: Int, credits: Int, letter: String) {
+        self.points = points
+        self.credits = credits
+        self.letter = letter
+    }
+}
+
+class Person{
+    var firstName: String
+    var lastName: String
+    
+    init(firstName: String, lastName: String) {
+        self.firstName = firstName
+        self.lastName = lastName
+    }
+    
+ 
+}
+
+class Student : Person{
+    var grades: [Grades] = []
+    
+    func printIt(){
+        print(firstName + " " + lastName)
+        print(grades)
+    }
+    
+    func recordGrade(grade:Grades){
+        grades.append(grade)
+    }
+    
+}
+
+class AlthleteStudent : Student{
+    var missedCourses: [Grades] = []
+
+    
+    override func recordGrade(grade: Grades) {
+        super.recordGrade(grade: grade)
+        
+        if grade.letter == "F"{
+            missedCourses.append(grade)
+        }
+    }
+    
+    func checkForKickout() -> Bool{
+        return missedCourses.count < 3
+    }
+}
+
+```
