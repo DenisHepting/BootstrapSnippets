@@ -156,8 +156,7 @@ Header-Search Animation
 		    transition: 0.3s ease;
 }
 ```
-
-Class inheritance and overriding class methods 
+#Class Inheritance / overriding 
 
 Call the super method first, to prevent any 
 sideffects a class can have to their subclass
@@ -220,3 +219,37 @@ class AlthleteStudent : Student{
 }
 
 ```
+
+# The final keyword
+
+with the final keyword, it is possible 
+to prevent classes from beeing subclasses 
+or methods from beeing overriden. 
+
+```swift 
+final class Student: Person {
+//…
+}
+// Build error!
+class StudentAthlete: Student {
+//…
+}
+
+
+class Student: Person {
+final func recordGrade(grade: Grade) {
+//…
+}
+}
+class StudentAthlete: Student {
+// Build error!
+override func recordGrade(grade: Grade) {
+//…
+}
+}
+
+
+```
+
+
+
