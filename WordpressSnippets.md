@@ -159,6 +159,10 @@ Header-Search Animation
 
 Class inheritance and overriding class methods 
 
+Call the super method first, to prevent any 
+sideffects a class can have to their subclass
+or to their superclass 
+
 ```swift
 struct Grades{
     var points: Int
