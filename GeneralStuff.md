@@ -64,11 +64,4 @@ http://blog.agupieware.com/2014/05/online-learning-bachelors-level.html?m=1
 
 
 
-## Main interests 
-
-Frontend Development of the future, how will the optimal process look like ? 
-How nice would it be, if you would be able to develop a app/webapp, that is 
-able to reach all devices no matter which size, brand, resolution and access the 
-whole computation power like native apps do, driven only by one single programming 
-language. 
 
