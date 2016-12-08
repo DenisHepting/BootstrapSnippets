@@ -2,7 +2,7 @@
 
 #Get a Website
 
-wget -r -np -k http://www.denishepting.de
+wget -r -np -k http://www.fancywebiste.de
 
 
 #Server
