@@ -1,10 +1,9 @@
 ##Terminal Commands 
 
-#Get a Website
-
+#Get a Websi
+```
 wget -r -np -k http://www.fancywebiste.de
-
-
+```
 #Server
 
 **Connect:**
