@@ -6,6 +6,11 @@
 
 - **iosdevelopertips:** http://iosdevelopertips.com
 
+## Serverside swift 
+
+Webframework for swift 
+
++ **vapor** https://vapor.codes
 
 ## Backend made easy
 + **realm.io:** https://realm.io/news
