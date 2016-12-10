@@ -82,3 +82,4 @@ airport -s
 ```
 
 http://www.saltwaterc.eu/capturing-wpa-handshakes-with-os-x.html
+https://gist.github.com/victorreyesh/6532800
