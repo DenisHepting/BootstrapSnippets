@@ -69,17 +69,16 @@ git commit -m "super fancy commit message"
  ```
 // For UserName or Email 
 ```
- git config user.name 
+git config user.name 
  
- git config user.email```
+git config user.email 
+```
 
+## Airport Stuff
 
+```
+List Wifi Devices
+airport -s
+```
 
-
-
-
-
-
-
-
-
+http://www.saltwaterc.eu/capturing-wpa-handshakes-with-os-x.html
