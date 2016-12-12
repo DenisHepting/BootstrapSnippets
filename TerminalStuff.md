@@ -83,3 +83,26 @@ airport -s
 
 http://www.saltwaterc.eu/capturing-wpa-handshakes-with-os-x.html
 https://gist.github.com/victorreyesh/6532800
+
+
+# General Commands 
+
+```
+
+// change directory
+cd 
+
+// create directory
+mkdir
+
+// create file
+touch myfile.html 
+
+// open file in vim Editor
+vim README.md
+
+//ESC, shift colon to save file
+
+// show calendar 
+cal 04 1990
+```
