@@ -50,6 +50,46 @@ Shell exited with status 1
 
 #Git
 
+// 1. initialize git
+```
+git init
+```
+
+// 2. git status (red is uncomitted)
+```
+git status
+```
+
+// 3. git add ./ (whole directory) or git add README.md (file) git add -A
+```
+git add ./  git add myfile.js    git add -A
+```
+
+// 4. git log // shows logfile of all commited versions
+```
+git log 
+```
+
+// 5. git checkout 0c4e6ae // first seven digits checkout selected commit
+```
+git checkout 0c4e6ae
+```
+
+// 6. show current branch
+```
+git branch
+```
+
+// 7. create new branch
+```
+git checkout -b nameofbranch
+```
+
+// 8. switch to existing branch 
+```
+git checkout nameofbranch
+```
+
 // clone it 
 ```
 git clone https://www.denishepting.de
