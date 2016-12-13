@@ -89,6 +89,16 @@ git branch
 git checkout -b nameofbranch
 ```
 
+**delete branch**
+```
+// if the branch is checked out locally you are not able to delete it.
+git branch -d branch_name (locally)
+
+git push origin --delete <branch_name> (remotely)
+```
+
+
+
 **switch to differnent branch**
 ```
 git checkout nameofbranch
@@ -126,6 +136,8 @@ git pull origin branchname --allow-unrelated-histories
 ```
 git push origin branchname
 ```
+
+
 
 // clone it 
 ```
