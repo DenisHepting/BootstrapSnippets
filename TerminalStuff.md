@@ -97,6 +97,9 @@ git remote -v  // to list remote connections
 // create a directory on git and copy the address
 git remote add origin git@github.com:DenisHepting/githubtest.git
 
+// remove origin and add new origin if already exists
+git remote rm origin
+
 git push origin master
 
 git pull origin master
