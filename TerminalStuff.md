@@ -100,6 +100,9 @@ git remote add origin git@github.com:DenisHepting/githubtest.git
 // remove origin and add new origin if already exists
 git remote rm origin
 
+// at the first pull to merge the different directories
+git pull origin branchname --allow-unrelated-histories
+
 git push origin master
 
 git pull origin master
