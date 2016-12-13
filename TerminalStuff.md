@@ -94,7 +94,12 @@ git checkout nameofbranch
 ```
 git remote -v  // to list remote connections
 
+// create a directory on git and copy the address
 git remote add origin git@github.com:DenisHepting/githubtest.git
+
+git push origin master
+
+git pull origin master
 
 ```
 
