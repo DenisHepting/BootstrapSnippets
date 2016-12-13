@@ -159,3 +159,19 @@ vim README.md
 // show calendar 
 cal 04 1990
 ```
+
+## NPM 
+```
+// List all global packages
+npm ls -g --depth=0 
+
+// Uninstall global packages
+npm uninstall -g nameofglobalpackage
+
+sudo unistall -g nameofglobalpackage
+
+// install globally
+npm install -g gulp
+
+npm install -g nameofpackage
+```
