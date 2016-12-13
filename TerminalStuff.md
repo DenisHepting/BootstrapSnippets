@@ -49,64 +49,82 @@ Shell exited with status 1
 ```
 
 #Git
+
+##Basics
+
+**Initialize git**
 ```
-// 1. initialize git
-
 git init
+```
 
-
-// 2. git status (red is uncomitted)
-
+**Git Status**
+```
 git status
+```
 
-
-// 3. git add ./ (whole directory) or git add README.md (file) git add -A
-
+**Git add (file or whole directory)**
+```
 git add ./  git add myfile.js    git add -A
+```
 
-
-// 4. git log // shows logfile of all commited versions
-
+**Git log (shows logfile of all commited versions**
+```
 git log 
+```
 
-
-// 5. git checkout 0c4e6ae // first seven digits checkout selected commit
+**Git checkout (branchname or first 7 digits of commit you want to use)**
+```
+git checkout branchname
 
 git checkout 0c4e6ae
+```
 
+**Show current branch**
+```
+git branch 
+```
 
-// 6. show current branch
-
-git branch
-
-
-// 7. create new branch
-
+**create new branch**
+```
 git checkout -b nameofbranch
+```
 
-
-// 8. switch to existing branch 
-
+**switch to differnent branch **
+```
 git checkout nameofbranch
 ```
 
-// remote stuff 
+## Remote stuff
+
+You need a ssh key for github to use these with your profile
+
+**list remote connections of repository**
 ```
-git remote -v  // to list remote connections
+git checkout nameofbranch
+```
 
-// create a directory on git and copy the address
-git remote add origin git@github.com:DenisHepting/githubtest.git
+**add new remote origin **
+```
+git remote add origin git@github.com:YOUUSERNAME/YOURREPOSITROY.git
+```
 
-// remove origin and add new origin if already exists
-git remote rm origin
+**remove a origin in case you want to change it**
+```
+git remote rm origin 
+```
 
-// at the first pull to merge the different directories
-git pull origin branchname --allow-unrelated-histories
-
-git push origin master
-
+** pull from remote **
+```
+git pull origin branchname
 git pull origin master
 
+// If problems with pull
+git pull origin branchname --allow-unrelated-histories
+```
+
+**push**
+```
+git push origin branchname
 ```
 
 // clone it 
