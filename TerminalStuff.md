@@ -89,7 +89,7 @@ git branch
 git checkout -b nameofbranch
 ```
 
-**switch to differnent branch **
+**switch to differnent branch**
 ```
 git checkout nameofbranch
 ```
@@ -103,7 +103,7 @@ You need a ssh key for github to use these with your profile
 git checkout nameofbranch
 ```
 
-**add new remote origin **
+**add new remote origin**
 ```
 git remote add origin git@github.com:YOUUSERNAME/YOURREPOSITROY.git
 ```
@@ -113,7 +113,7 @@ git remote add origin git@github.com:YOUUSERNAME/YOURREPOSITROY.git
 git remote rm origin 
 ```
 
-** pull from remote **
+**pull from remote**
 ```
 git pull origin branchname
 git pull origin master
