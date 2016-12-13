@@ -90,6 +90,14 @@ git checkout -b nameofbranch
 git checkout nameofbranch
 ```
 
+// remote stuff 
+```
+git remote -v  // to list remote connections
+
+git remote add origin git@github.com:DenisHepting/githubtest.git
+
+```
+
 // clone it 
 ```
 git clone https://www.denishepting.de
