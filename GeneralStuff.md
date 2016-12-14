@@ -11,6 +11,15 @@
 Webframework for swift 
 
 + **vapor** https://vapor.codes
++ **perfect** https://www.perfect.org
++ **kitura** https://developer.ibm.com/swift/kitura/
++ **zewo** http://www.zewo.io
+
+## Git
+
+//Documentation Made Easy
++ **gitbook** https://www.gitbook.com
+
 
 ## Backend made easy
 + **realm.io:** https://realm.io/news
