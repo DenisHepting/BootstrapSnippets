@@ -17,7 +17,7 @@ Webframework for swift
 
 ## Git
 
-//Documentation Made Easy
+//Documentation made easy
 + **gitbook** https://www.gitbook.com
 
 
