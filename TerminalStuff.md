@@ -1,4 +1,4 @@
-##Terminal Commands 
+Terminal Commands 
 
 #Get a Website
 ```
@@ -210,4 +210,4 @@ sudo unistall -g nameofglobalpackage
 npm install -g gulp
 
 npm install -g nameofpackage
-```
+``
