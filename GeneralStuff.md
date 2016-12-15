@@ -1,10 +1,10 @@
 ## Apple - iOS - SwiftStuff
 
++ **RayWenderlich:** https://www.raywenderlich.com
++ **Appcoda:** https://www.appcoda.com
 + **AppleSwift Blog:** https://developer.apple.com/swift/blog/
-
 + **NSHipster:**  http://nshipster.com
-
-- **iosdevelopertips:** http://iosdevelopertips.com
++ **iosdevelopertips:** http://iosdevelopertips.com
 
 ## Serverside swift 
 
