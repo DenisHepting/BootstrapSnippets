@@ -11,6 +11,7 @@
 Webframework for swift 
 
 + **vapor** https://vapor.codes
++ **additional help to set up vapor** https://www.appcoda.com/server-side-swift-vapor/
 + **perfect** https://www.perfect.org
 + **kitura** https://developer.ibm.com/swift/kitura/
 + **zewo** http://www.zewo.io
