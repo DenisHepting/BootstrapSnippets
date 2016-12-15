@@ -1,5 +1,84 @@
 #Swift 
 
+##What to know
+ + **variables** ✅
+ + **constants** ✅
+ + **operators** ✅
+ + **if, switch** ✅
+ + **for, while, repeat** ✅ (repeat review)
+ + **ranges** ✅
+ + **break, continue** ❌❓
+ + **tenery condition operator** ✅ (review) 
+ + **functions** ✅
+ + **arrays** ✅
+ + **sets** ✅ (review set operation)
+ + **dictionaries** ✅
+ + **higher order functions (map, sort, filter)** ✅
+ + **closures** ❌❓
+ + **optionals** ❌❓
+ + **structs** ✅
+ + **classes** ✅
+ + **advanced classes (inheritance)** ✅
+ + **enumeration**
+
+
+##Variables 
+
+Swift has a so called type inference with which it is able to recognize the type you use as a variable. If you want to make sure that a certain type is 
+not accidentally used as another, or overwritten declare it right away. Swift is type safe, so it doesn't allow you to overwrite a type you already used. 
+
+
+```swift
+// define the type
+var typeReference: Int = 0 
+
+//INT 
+var x = 10 
+
+//DOUBLE 
+var y = 54.0
+
+//STRING
+var firstName = "Peter"
+
+//BOOL 
+var isPlaying = true 
+
+```
+
+
+##Constants
+
+If you don´t plan to change the value of your variable, or a value should never changed be accidentally changed, cause it is a constant, make it a let (constant)
+
+```swift
+//Constants are declared as let 
+
+let pi = 3.14
+
+let vowel = "a"
+
+let adminName = "Juergen"
+```
+
+
+##Operators
+
+The operators are pretty much same like in all the other programming languages
+
+AND &&
+OR ||
+Smaller <=
+Bigger >=
+Equals == 
+
+You are also able to chain them like in every other languages
+
+(a < x && z > b ) || 10 == currentValue
+
+##
+
+
 ##Use functions as input parameter
 
 ```swift
