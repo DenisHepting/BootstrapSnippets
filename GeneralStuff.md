@@ -16,6 +16,8 @@ Webframework for swift
 + **kitura** https://developer.ibm.com/swift/kitura/
 + **zewo** http://www.zewo.io
 
++ **heroku** https://www.heroku.com/platform
+
 ## Git
 
 //Documentation made easy
