@@ -82,5 +82,8 @@ http://blog.agupieware.com/2014/05/online-learning-bachelors-level.html?m=1
 
 
 ##Torrent
-http://deluge-torrent.org
++**Delunge (mac)**http://deluge-torrent.org
+
+##Funny list
++**Warren Buffet**https://static1.squarespace.com/static/56f58f7704426238d3416abf/t/57f3f0b503596e35ff1ce043/1475604675705/20_HABITS_MILLIONAIRES_ALTUCHER.pdf
 
